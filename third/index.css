@@ -1,0 +1,44 @@
+/* THIRD  */
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body { margin: 0; padding: 0;}
+header {
+	background-color: #D8D8D8;
+	padding: 10px 20px;
+}
+.logo {
+	background-color: #4A90E2;
+	height:90px;
+	width: 90px;
+	display: inline-block;
+	
+}
+.col {
+	height: 20vh;
+}
+.colWhite {
+	background-color: #fff;
+}
+.colWhite p {
+	margin:40px;
+	font-family: 'Open Sans', helvetica, arial, sans-serif;
+	color:#626262;
+	font-size:24px;
+}
+.colBlue {
+	background-color: #4A90E2;
+}
+.colTeal {
+	background-color: #50E3C2;
+}
+.colGreen {
+	background-color: #B8E986;
+}
+.colYellow {
+	background-color: #F8E71C;
+}
